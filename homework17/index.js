@@ -197,8 +197,6 @@ student3.absent();
 student3.present();
 student3.present();
 
-student3
-
 console.log(student3.summary());
 
 
