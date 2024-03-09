@@ -1,0 +1,63 @@
+.TodoList {
+    font-family: Arial, sans-serif;
+}
+
+.TodoList h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.TodoList ul {
+    list-style: none;
+    padding: 0;
+}
+
+.TodoList li {
+    margin-bottom: 5px;
+}
+
+.TodoList button {
+    margin-left: 10px;
+    background-color: #ff6347;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.TodoList button:hover {
+    background-color: #ff473d;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #808080;
+}
+
+.TodoForm {
+    margin-bottom: 20px;
+}
+
+.TodoForm-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+.TodoForm-button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.TodoForm-button:hover {
+    background-color: #0056b3;
+}
